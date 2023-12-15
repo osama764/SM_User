@@ -43,7 +43,7 @@ loginpage.addEventListener("click", (e) => {
       myform.password.value = "";
 
       // قم بتوجيه المستخدم إلى صفحة إضافة الغرفة هنا
-      window.location.href = "/client/Pages/AddNewRooms.html";
+      window.location.href = "client/Pages/AddNewRooms.html";
     })
     .catch((error) => {
       // حدث خطأ أثناء تسجيل الدخول
